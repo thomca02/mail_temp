@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- YOU CAN CHANGE THE TITLE BELOW -->
+    <title>Email Newsletter Template - Responsive</title>
+    <style>
+        /* A simple css reset */
+        body,table,thead,tbody,tr,td,img {
+            padding: 0;
+            margin: 0;
+            border: none;
+            border-spacing: 0px;
+            border-collapse: collapse;
+            vertical-align: top;
+        }
+
+        /* Add 10px padding for small screens */
+        .wrapper {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        /* CHANGE FONT STYLE BELOW */
+        h1,h2,h3,h4,h5,h6,p {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 20px;
+            line-height: 1.6;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+
+        /* CHANGE FONT STYLE BELOW */
+        p,a,li {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+
+        #banner {
+            width: 100%;
+            display: block;
+        }
+
+        /* Any screen smaller than 620px will have the width defined below */
+        @media only screen and (max-width: 620px) {
+            .wrapper .section {
+                width: 100%;
+            }
+            .wrapper .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<!-- This begins the body of the HTML Email -->
+<body>
+    <table width="100%">
+        <tbody>
+            <tr>
+                <td class="wrapper" width="600" align="center">
+                  <!-- Header image -->
+                  <table class="section header" cellpadding="0" cellspacing="0" width="600">
+                      <tr>
+                        <td class="column">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <!-- COMPANY BANNER GOES HERE -->
+                                  <img id="banner" src="img/banner.jpg" alt="banner" width="600" style="margin-bottom: 15px"/>
+                                  <div style="display: flex; justify-content: space-between">
+                                    <p style="margin-bottom: -15px; margin-right: 175px">Date: (Displayed Here)</p>
+                                    <a href="#"><img src="img/soc1.png" alt="soc1" /></a>
+                                    <a href="#"><img src="img/soc2.png" alt="soc2" /></a>
+                                    <a href="#"><img src="img/soc3.png" alt="soc3" /></a>
+                                    <a href="#"><img src="img/soc4.png" alt="soc4" /></a>
+                                  </div>
+                                  <hr style="height: 3px; background-color: black">
+                                  <!-- ARTICLE ONE INFORMATION -->
+                                    <h2>Main Article</h2>
+                                    <h4><a href="#">Linked Title Here</a></h4>
+                                      <p style="text-align:justify;">This will be the content of the first article in your newsletter. You can edit the information here.</p>
+                                      <p style="text-align:justify; margin-bottom: -20px">Feel free to add <a href="#">links</a> and anything else that is helpful to you.
+                                      </p>
+                                      <hr style="height: 3px; background-color: black">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                  </table>
+                    <!-- Two columns -->
+                  <table class="section" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="column" width="290" valign="top">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <img id="banner" src="img/banner2.jpg" alt="banner2" width="300" />
+                                    <h3>Article 2</h3>
+                                    <h4><a href="#">Linked Title Here</a></h4>
+                                      <p style="text-align:justify; margin-bottom: -20px">This is another spot where you can have an article. This will be the second article in the HTML Email.</p>
+                                      <hr style="height: 3px; background-color: black">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td class="column" width="20" valign="top">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td> &nbsp; </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td class="column" width="290" valign="top">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <img id="banner" src="img/banner3.jpg" alt="banner3" width="300"/>
+                                    <h3>Article 3</h3>
+                                    <h4><a href="#">Linked Title Here</a></h4>
+                                      <p style="text-align:justify; margin-bottom: -15px">The third article can be written here and information can be given here.</p>
+                                      <hr style="height: 3px; background-color: black">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                  </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
